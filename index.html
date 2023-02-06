@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="三島大地のポートフォリオサイト">
+  <title>Mishima-portfolio</title>
+  <link rel="shortcut icon" href="favicon.ico">
+
+  <!-- reset.css -->
+  <link rel="stylesheet" href="css/reset.css">
+  <!----- fontawesome ----->
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  <!-- drawer.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/css/drawer.min.css"
+  media="screen and (max-width:767px)">
+  <!-- animate.css -->
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- fullpage.css -->
+  <link rel="stylesheet" href="css/fullpage.css">
+  <!-- original -->
+  <link rel="stylesheet" href="css/common.css">
+</head>
+
+<body class="drawer drawer--right fadeout">
+
+  <header>
+    <div class="header_inner">
+      <h1 class="header_logo"><a class="header_logo_link" href="../index.html">Boulder Base</a></h1>
+      <button type="button" class="drawer-toggle drawer-hamburger">
+      <span class="sr-only">toggle navigation</span>
+      <span class="drawer-hamburger-icon"></span>
+      </button>
+      <nav class="drawer-nav header_nav">
+        <ul class="drawer-menu header_nav_list">
+          <li class="header_nav_item"><a class="header_nav_link  drawer-toggle" href="#top">HOME<span class="header_nav_border"></span></a></li>
+          <li class="header_nav_item"><a class="header_nav_link drawer-toggle" href="about/index.html">ABOUT ME<span class="header_nav_hover"></span></a></li>
+          <li class="header_nav_item"><a class="header_nav_link drawer-toggle" href="works/index.html">WORKS<span class="header_nav_hover"></span></a></li>
+          <li class="header_nav_item"><a class="header_nav_link drawer-toggle" href="#contact">CONTACT<span class="header_nav_hover"></span></a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- /.header -->
+
+  <main>
+    <div class="fullpage" id="fullpage">
+      <section data-anchor="top" class="section top">
+          <div class="text_content">
+            <h2 class="util_title">Portfolio<span class="util_border"></span></h2>
+            <p class="util_lead">Hello, I'm Mishima Daichi</p>
+            <div class="visible"></div>
+          </div>
+          <div class="top_scroll">SCROLL</div> 
+      </section>
+      <!-- /.fullpage_top -->
+
+      <section data-anchor="about" class="section about">
+        <div class="about_inner">
+          <div class="text_content">
+            <h2 class="util_title">About Me<span class="util_border"></span></h2>
+            <p class="util_lead">My Profile,Passion,Skill</p>
+            <div class="util_link"><a class="util_btn" href="./about/index.html">Show more</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- /.fullpage_about -->
+
+      <section data-anchor="works" class="section works">
+        <div class="works_inner">
+          <div class="text_content">
+              <h2 class="util_title">Works<span class="util_border"></span></h2>
+              <p class="util_lead">Website</p>
+              <div class="util_link"><a class="util_btn" href="works/index.html">Show more</a></div>
+          </div>
+        </div>
+      </section>
+      <!-- /.fullpage_works -->
+
+      <section data-anchor="contact" class="section contact">
+        <div class="contact_inner">
+          <div class="text_content">
+            <h2 class="util_title">Get In Touch<span class="util_border"></span></h2>
+            <p class="util_lead">SNS</p>
+            <ul class="contact_sns_list">
+              <li class="contact_sns_item">
+                <a class="util_btn" href="https://twitter.com/Jcn5H" target="_blank"><i class="fab fa-twitter"></i>Twitter</a>
+              </li>
+              <li class="contact_sns_item">
+                <a class="util_btn" href="mailto:quigi1028@gmail.com" target="_blank"><i class="fas fa-envelope"></i>gmail</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- /.fullpage_contact -->
+    </div>
+
+    <div class="top_bg"></div>
+    <!-- /.top_bg -->
+
+    <div class="parallax_bg">
+      <div class="moon_bg" id="scene">
+        <img data-depth="-0.4" class="moon" src="img/moon.svg" alt="">
+        <img data-depth="0.2" class="star" src="img/star1.svg" alt="">
+      </div>
+    </div>
+    <!-- /.parallax_bg -->
+
+  </main>
+  
+  <!-- jquery & iScroll -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/iScroll/5.2.0/iscroll.min.js"></script>
+  <!-- drawer.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/drawer/3.2.2/js/drawer.min.js"></script>
+  <!-- parallax.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+  <!-- inview.js -->
+  <script src="js/jquery.inview.min.js"></script>
+  <!-- jquery-ui.js -->
+  <script src="js/jquery-ui.min.js"></script>
+  <!-- fullpage.js -->
+  <script src="js/fullpage.js"></script>
+  <!-- original -->
+  <script src="js/script.js"></script>
+
+</body>
+</html>
